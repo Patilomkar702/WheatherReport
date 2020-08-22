@@ -12,7 +12,7 @@ let forecast = () => {
     cityName;
     */
 
-    let url = "http://api.openweathermap.org/data/2.5/weather?appid=6e7bb04b382bebb306e717f2e70f22a9&units=metric&q=" + cityName;
+    let url = "https://api.openweathermap.org/data/2.5/weather?appid=6e7bb04b382bebb306e717f2e70f22a9&units=metric&q=" + cityName;
 
   let xhr = new XMLHttpRequest();
   xhr.open('GET',url);
